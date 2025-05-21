@@ -1,0 +1,6 @@
+<h2>Your Jobs</h2>
+<ul>
+  <li *ngFor="let job of jobs">
+    <strong>{{ job.title }}</strong> &#64; {{ job.company }} - {{ job.status }}
+  </li>
+</ul>
