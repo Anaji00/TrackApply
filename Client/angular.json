@@ -16,12 +16,22 @@
   "outputPath": "dist/trackapply-client",
   "index": "src/index.html",
   "browser": "src/main.ts",
-  "polyfills": ["zone.js"],
+  "polyfills": [
+    "zone.js"
+  ],
   "tsConfig": "tsconfig.app.json",
-  "assets": [{ "glob": "**/*", "input": "public" }],
-  "styles": ["src/styles.css"],
+  "assets": [
+    {
+      "glob": "**/*",
+      "input": "public"
+    }
+  ],
+  "styles": [
+    "src/styles.css"
+  ],
   "scripts": []
 }
+
 
           },
           "configurations": {
